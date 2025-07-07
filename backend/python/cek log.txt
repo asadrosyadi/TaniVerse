@@ -1,0 +1,2 @@
+sudo systemctl status servo_lidar.service
+tail -f /var/www/python/servo_lidar.log
