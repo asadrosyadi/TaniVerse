@@ -1,0 +1,19 @@
+{
+    "confidence": {
+        "Healthy": 3.71008318325039e-05,
+        "High Stress": 0.9997690320014954,
+        "Moderate Stress": 0.00019386109488550574
+    },
+    "date": "2024-11-02 08:54:53",
+    "forecast_type": "forecast",
+    "humidity": 47.24784315403373,
+    "light_intensity": 760.6258292666594,
+    "nitrogen": 31.052469900815304,
+    "ph": 7.497374386873277,
+    "phosphorus": 30.663180860058453,
+    "potassium": 33.08383762021031,
+    "predicted_health": "High Stress",
+    "soil_moisture": 36.35755797515368,
+    "soil_temp": 20.280489828192664,
+    "temperature": 23.021988353360015
+}

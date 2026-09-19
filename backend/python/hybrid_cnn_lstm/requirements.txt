@@ -1,0 +1,8 @@
+# Hybrid CNN-LSTM feature-fusion module (Layer 4.5)
+tensorflow==2.15.0        # manuscript Table 3 (Keras 2.13 API surface)
+numpy
+pandas
+scikit-learn
+matplotlib
+requests                 # Algorithm 1, step 16 -- Laravel REST transmit
+paho-mqtt                # Algorithm 1, step 16 -- MQTT broker transmit (optional)

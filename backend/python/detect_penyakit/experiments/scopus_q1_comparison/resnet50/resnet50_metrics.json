@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.4289827255278311,
+  "precision_macro": 0.29098427003406024,
+  "recall_macro": 0.28857030616639706,
+  "f1_macro": 0.25600719034550545,
+  "precision_weighted": 0.3911169497817511,
+  "recall_weighted": 0.4289827255278311,
+  "f1_weighted": 0.36757350258984234,
+  "test_loss": 1.657609286555402,
+  "model": "resnet50"
+}

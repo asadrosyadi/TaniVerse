@@ -1,0 +1,20 @@
+# Runtime artefacts produced by the hybrid pipeline scripts (not source)
+__pycache__/
+*.pyc
+
+paired_manifest.csv
+paired_sensor_windows.npy
+paired_micro_targets.npy
+paired_dataset_info.json
+
+fusion_weights.json
+hybrid_cnn_lstm_model.h5
+hybrid_cnn_lstm_model.keras
+hybrid_scaler_stats.json
+hybrid_cv_results.json
+cv_results.json
+
+table4_cnn_comparison.*
+table6_hybrid_comparison.*
+algorithm1_run_log.json
+actuation_success_rate.json

@@ -1,0 +1,10 @@
+{
+  "index_in_test_set": 1790,
+  "timestamp": "2029-06-20T20:00:00.000000",
+  "reference_vpd_kpa": 0.5007768746869199,
+  "predicted_vpd_kpa": 0.4627576768398285,
+  "absolute_error_kpa": 0.0380191978470914,
+  "test_set_mae_kpa": 0.07759796200033715,
+  "test_set_rmse_kpa": 0.10027006998034599,
+  "n_test": 1999
+}

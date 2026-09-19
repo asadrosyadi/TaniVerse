@@ -1,0 +1,12 @@
+[
+  {
+    "model":"yolov11",
+    "accuracy":0.9093090211,
+    "precision_macro":0.901401793,
+    "recall_macro":0.9003449816,
+    "f1_macro":0.8989896459,
+    "precision_weighted":0.9114913558,
+    "recall_weighted":0.9093090211,
+    "f1_weighted":0.9088923209
+  }
+]

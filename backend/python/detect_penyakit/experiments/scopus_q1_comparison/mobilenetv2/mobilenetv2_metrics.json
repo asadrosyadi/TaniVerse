@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.046065259117082535,
+  "precision_macro": 0.004606525911708253,
+  "recall_macro": 0.1,
+  "f1_macro": 0.008807339449541285,
+  "precision_weighted": 0.0021220080975239554,
+  "recall_weighted": 0.046065259117082535,
+  "f1_weighted": 0.004057123738752224,
+  "test_loss": NaN,
+  "model": "mobilenetv2"
+}

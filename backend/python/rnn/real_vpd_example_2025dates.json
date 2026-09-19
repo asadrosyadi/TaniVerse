@@ -1,0 +1,16 @@
+{
+  "index_in_test_set": 117,
+  "timestamp": "2025-01-20T12:00:00.000000",
+  "reference_vpd_kpa": 1.1933392157841762,
+  "predicted_vpd_kpa": 1.274290919303894,
+  "absolute_error_kpa": 0.08095170351971781,
+  "this_run_test_set_vpd_mae_kpa": 0.07664982424834378,
+  "reference_table5_blocked_cv_vpd_mae_kpa": 0.081,
+  "n_test": 1999,
+  "largest_error_in_test_set": {
+    "timestamp": "2025-02-11T04:00:00.000000",
+    "reference_vpd_kpa": 1.6768783140439725,
+    "predicted_vpd_kpa": 1.2432347536087036,
+    "absolute_error_kpa": 0.43364356043526886
+  }
+}

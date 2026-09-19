@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.8690019193857965,
+  "precision_macro": 0.8542211146184144,
+  "recall_macro": 0.8509513880875254,
+  "f1_macro": 0.8491156577976666,
+  "precision_weighted": 0.8728593947604117,
+  "recall_weighted": 0.8690019193857965,
+  "f1_weighted": 0.8682172951815407,
+  "test_loss": 0.5124477523311101,
+  "model": "efficientnetv2"
+}

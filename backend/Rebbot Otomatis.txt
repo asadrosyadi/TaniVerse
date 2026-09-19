@@ -1,0 +1,11 @@
+Berikut ini adalah cara menjadwalkan reboot otomatis di Raspberry Pi setiap hari pada:
+
+Jam 04:00
+
+Jam 08:30
+
+Jam 14:00
+
+Jam 18:00
+
+Jam 22:00

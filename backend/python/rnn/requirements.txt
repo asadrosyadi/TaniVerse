@@ -1,0 +1,9 @@
+flask
+tensorflow-cpu  # Jika butuh TensorFlow tanpa GPU
+flask-cors
+flask-socketio
+joblib
+numpy
+pandas
+requests
+eventlet

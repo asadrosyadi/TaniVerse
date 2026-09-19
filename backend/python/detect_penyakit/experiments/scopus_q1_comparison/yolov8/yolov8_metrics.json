@@ -1,0 +1,10 @@
+{
+  "accuracy": 0.8651631477927063,
+  "precision_macro": 0.8533325302558868,
+  "recall_macro": 0.8451506668403624,
+  "f1_macro": 0.8482119272685761,
+  "precision_weighted": 0.8652891543849348,
+  "recall_weighted": 0.8651631477927063,
+  "f1_weighted": 0.8641488787108491,
+  "model": "yolov8"
+}

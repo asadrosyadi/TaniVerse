@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.13867562380038387,
+  "precision_macro": 0.013867562380038386,
+  "recall_macro": 0.1,
+  "f1_macro": 0.024357353560893382,
+  "precision_weighted": 0.019230928636425594,
+  "recall_weighted": 0.13867562380038387,
+  "f1_weighted": 0.033777711991833916,
+  "test_loss": 2.2317325547194526,
+  "model": "vit"
+}

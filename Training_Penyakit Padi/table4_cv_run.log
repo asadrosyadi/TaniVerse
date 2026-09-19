@@ -1,0 +1,24 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789530357.607157   19344 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789530361.156952   19344 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\tfenv311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+Total gambar: 10407 | 10 kelas
+
+############ EfficientNet-B0 : stratified 5-fold CV ############
+  -- EfficientNet-B0 fold 1/5
+I0000 00:00:1789530365.435826   19344 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+C:\tfenv311\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/40
+212/212 - 218s - 1s/step - accuracy: 0.3638 - loss: 1.7978 - val_accuracy: 0.2659 - val_loss: 2.1250 - learning_rate: 0.0010
+Epoch 2/40
+212/212 - 192s - 907ms/step - accuracy: 0.4904 - loss: 1.4040 - val_accuracy: 0.2876 - val_loss: 2.1331 - learning_rate: 0.0010
+Epoch 3/40
+212/212 - 207s - 974ms/step - accuracy: 0.5473 - loss: 1.2584 - val_accuracy: 0.2697 - val_loss: 2.2849 - learning_rate: 0.0010
+Epoch 4/40
+212/212 - 207s - 978ms/step - accuracy: 0.5836 - loss: 1.1526 - val_accuracy: 0.2966 - val_loss: 2.3804 - learning_rate: 0.0010
+Epoch 5/40
