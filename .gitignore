@@ -1,0 +1,33 @@
+# --- OS / editor cruft ---
+__pycache__/
+*.pyc
+.DS_Store
+*- Copy.env
+tempCodeRunnerFile.py
+
+# --- Python virtual environments ---
+.venv/
+venv/
+
+# --- PHP / Node dependency directories (installed via composer/npm, see README §3) ---
+backend/laravel/vendor/
+backend/laravel/node_modules/
+
+# --- Large Kaggle-sourced datasets (see README §2 for download instructions) ---
+Training_Penyakit Padi/train/
+Training_Penyakit Padi/val/
+Training_Penyakit Padi/test/
+Training_Penyakit Padi/train_images/
+Training_Penyakit Padi/*.cache
+
+# --- Trained model checkpoints regenerable via README §4.5 (kept out; the CNN/LSTM checkpoints and
+#     Table 7 benchmark summary/metrics/confusion-matrix results ARE tracked) ---
+backend/python/hybrid_cnn_lstm/*.h5
+backend/python/hybrid_cnn_lstm/*.keras
+backend/python/detect_penyakit/runs/
+
+# torchvision/timm best_checkpoint.pt files under experiments/<run>/<model>/ are 9MB-513MB each
+# (ViT/VGG16 exceed GitHub's 100MB single-file limit) -- excluded here. The small YOLO nano checkpoints
+# under experiments/<run>/yolo_runs/**/weights/*.pt (~5-6MB, cited as provenance evidence in the README)
+# are NOT matched by this pattern and remain tracked.
+backend/python/detect_penyakit/experiments/*/*/best_checkpoint.pt
